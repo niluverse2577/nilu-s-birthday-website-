@@ -1864,3 +1864,203 @@ body {
         gap: 2rem;
     }
 }
+/* Mobile Responsive Design */
+
+* {
+  box-sizing: border-box;
+  }
+
+html {
+width: 100%;
+overflow-x: hidden;
+}
+
+body {
+width: 100%;
+margin: 0;
+overflow-x: hidden;
+}
+
+img, video, canvas {
+max-width: 100%;
+}
+
+button {
+max-width: 100%;
+touch-action: manipulation;
+}
+
+@media screen and (max-width: 768px) {
+
+```
+.app-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.top-header {
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.top-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.top-controls button {
+    font-size: 13px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: clamp(28px, 8vw, 42px);
+    overflow-wrap: anywhere;
+}
+
+h2 {
+    font-size: clamp(22px, 6vw, 32px);
+}
+
+input, textarea, select {
+    max-width: 100%;
+}
+
+.btn {
+    min-height: 44px;
+}
+```
+
+}
+
+@media screen and (max-width: 480px) {
+
+```
+.app-wrapper {
+    padding: 8px;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.top-controls button {
+    font-size: 12px;
+}
+/* Mobile Layout Improvements */
+
+@media screen and (max-width: 600px) {
+
+```
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+img,
+video,
+canvas {
+    max-width: 100%;
+}
+
+button {
+    max-width: 100%;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: clamp(24px, 6vw, 32px) !important;
+}
+
+.top-header,
+.top-controls {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+audio,
+iframe {
+    max-width: 100%;
+}
+
+input,
+select,
+textarea {
+    max-width: 100%;
+    min-width: 0;
+}
+  /* Mobile Layout Improvements */
+   @media screen and (max-width: 600px) {
+      *, 
+      *::before,
+      *::after {
+         box-sizing: border-box;
+      }
+      html,
+      body { 
+         width: 100%;
+         max-width: 100%;
+         margin: 0; 
+         overflow-x:hidden;
+      }
+      img, 
+      video,
+      canvas{
+         max-width: 100%;   
+      }
+      button { 
+         max-width: 100%;
+         font-size: 14px;
+      }
+      h1 {
+         font-size: clamp(24px, 6vw, 32px) !important; 
+      }
+      .top-header,
+      .top-controls { 
+         width: 100%;
+         max-width: 100%;
+         flex-wrap: wrap; 
+         justify-content:center;
+         gap: 10px; 
+      }
+      .app-wrapper {
+         width: 100%; 
+         max-width: 100%;
+         padding: 10px;
+         margin: 0 auto;
+      }
+      audio,
+      iframe {
+         max-width: 100%;
+      }
+      input,
+      select,
+      textarea {
+    max-width: 100%;
+    min-width: 0;
+}
+}
+   
